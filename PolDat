@@ -1,0 +1,50 @@
+from bs4 import BeautifulSoup
+import requests
+
+##write a function to create a list of urls from the main policy page
+
+base_url = [ 'http://www.gov.cn/zhengce/zuixin.htm', 'http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/']
+
+
+# class PolSoup(BeautifulSoup):
+# 	"""
+
+# 	Base class for getting data from various sources 
+# 	"""
+
+def build_urls(base_url_list):
+
+	"""
+	Given a list of urls find the html object that links to a url 
+	append the html to a meta list of urls
+
+
+	Parameters:
+	base_url_list: list
+		A list of base urls
+
+	Returns:
+	list
+		list of urls that is fed into a larger list
+
+	"""
+
+	url_expand_list = []
+	for url in base_url_list:
+		#iterate over some stuff 
+		#find the ahref
+		#url_expand_list.append(ahref)
+
+def url_iterator(build_url_function):
+
+	"""
+	Some code that goes in and finds the text part of the 
+	"""
+
+
+def zhengce_zuixin(url_list):
+
+	for url in url_list:
+
+
+
